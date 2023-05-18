@@ -1,6 +1,4 @@
 ----------------------------조인 기본----------------------------------
-
---PDF
 SELECT M1.INVOICE_NO
       ,M1.OUTBOUND_DATE
       ,M1.OUT_TYPE_DIV
@@ -373,7 +371,6 @@ SELECT INVOICE_NO
  
  
  
- 
 ----------------------------중간점검---------------------------------- 
  
 --점검 PAGE3-1
@@ -390,8 +387,6 @@ SELECT OUTBOUND_DATE
          ,INVOICE_NO
          
          
-
-
 --점검 PAGE4-1
 SELECT INVOICE_NO
       ,LINE_NO
